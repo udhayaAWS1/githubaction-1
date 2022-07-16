@@ -1,5 +1,6 @@
 name: Container
-on: push
+on:
+push: master
 
 jobs: 
   docker-steps:
